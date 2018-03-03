@@ -45,8 +45,7 @@
     <Compile Include="BancoAztecaTransaction.cs" />
     <Compile Include="BancomerTransaction.cs" />
     <Compile Include="BankTransaction.cs" />
-    <Compile Include="ClientA.cs" />
-    <Compile Include="ClientB.cs" />
+    <Compile Include="Client.cs" />
     <Compile Include="CSV.cs" />
     <Compile Include="FTP.cs" />
     <Compile Include="HTTP.cs" />

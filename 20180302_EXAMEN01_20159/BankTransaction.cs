@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _20180302_EXAMEN01_20159 {
     abstract class BankTransaction {
-        List<IObserver> observers;
+        public List<IObserver> observers;
         public String originAccount { get; set; }
         public String destinationAccount { get; set; }
         public double quantity { get; set; }
@@ -17,7 +17,7 @@ namespace _20180302_EXAMEN01_20159 {
             this.observers = new List<IObserver>();
         }
 
-        abstract public void doTransaction(String source, String target, double quantity);
+        abstract public void doTransaction(Client source, Client target, double quantity);
 
         public void add(IObserver observer) {
             this.observers.Add(observer);
