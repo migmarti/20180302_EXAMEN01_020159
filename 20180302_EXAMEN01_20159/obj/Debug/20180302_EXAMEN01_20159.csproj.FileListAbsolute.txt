@@ -1,0 +1,6 @@
+c:\users\mmart\documents\visual studio 2013\Projects\20180302_EXAMEN01_20159\20180302_EXAMEN01_20159\bin\Debug\20180302_EXAMEN01_20159.exe.config
+c:\users\mmart\documents\visual studio 2013\Projects\20180302_EXAMEN01_20159\20180302_EXAMEN01_20159\obj\Debug\20180302_EXAMEN01_20159.csprojResolveAssemblyReference.cache
+c:\users\mmart\documents\visual studio 2013\Projects\20180302_EXAMEN01_20159\20180302_EXAMEN01_20159\bin\Debug\20180302_EXAMEN01_20159.exe
+c:\users\mmart\documents\visual studio 2013\Projects\20180302_EXAMEN01_20159\20180302_EXAMEN01_20159\bin\Debug\20180302_EXAMEN01_20159.pdb
+c:\users\mmart\documents\visual studio 2013\Projects\20180302_EXAMEN01_20159\20180302_EXAMEN01_20159\obj\Debug\20180302_EXAMEN01_20159.exe
+c:\users\mmart\documents\visual studio 2013\Projects\20180302_EXAMEN01_20159\20180302_EXAMEN01_20159\obj\Debug\20180302_EXAMEN01_20159.pdb

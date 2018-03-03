@@ -1,0 +1,5 @@
+La solucion fue disenada implementando Strategy Method y Observer Method.
+Strategy:
+	Se deben utilizar diferentes formatos y protocolos concretos.
+Observer:
+	Los clientes de los bancos se deben ser notificados.
