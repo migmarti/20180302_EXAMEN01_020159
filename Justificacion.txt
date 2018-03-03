@@ -1,19 +1,14 @@
 La solucion fue disenada implementando Strategy Pattern y Observer Pattern.
 
+Strategy Pattern permite seleccionar un algoritmo en tiempo de ejecuci√≥n. El patr√≥n de estrategia define una familia de algoritmos (Protocolos y Formatos), encapsula cada algoritmo, y hace que los algoritmos sean intercambiables dentro de esa familia.
 
-Strategy Pattern permite seleccionar un algoritmo en tiempo de ejecuciÛn. El patrÛn de estrategia define una familia de algoritmos (Protocolos y Formatos), encapsula cada algoritmo, y hace que los algoritmos sean intercambiables dentro de esa familia.
-
-En el Observer Pattern, un objeto (BankTransactions) mantiene una lista de sus dependientes (Client), y les notifica autom·ticamente cualquier cambio de estado, generalmente llamando a uno de sus mÈtodos.
+En el Observer Pattern, un objeto (BankTransactions) mantiene una lista de sus dependientes (Client), y les notifica autom√°ticamente cualquier cambio de estado, generalmente llamando a uno de sus m√©todos.
 
 
 Strategy:
-	
 	- Se deben utilizar diferentes formatos y protocolos.
-	
 	- Cada banco debe usar su propio formato y protocolo.
-	
 	- Strategy puede condensar estos problemas por medio de las interfaces.
 Observer:
-	
 	- Los clientes de los bancos deben ser notificados al realizar alguna transferencia.
-		- Observer se encarga de realizar esta tarea mediante el metodo notify() junto con 	  	update(), el cual muestra un mensaje a todos los clientes relacionados al banco.
+	- Observer se encarga de realizar esta tarea mediante el metodo notify() junto con update(), el cual muestra un mensaje a un cliente receptor de una transaccion
